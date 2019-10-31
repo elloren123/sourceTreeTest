@@ -26,12 +26,15 @@
     
     [self test1];
     
-    
+    [self test2];
 }
 
 -(void)test1{
     NSLog(@"我们是打标签之前的代码");
 }
 
+-(void)test2 {
+    NSLog(@"打过一个标签后,我才提交的`````");
+}
 
 @end
