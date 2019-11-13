@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ADLEvaluateStarView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="快递包装" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nwo-Rh-T4e">
+                    <rect key="frame" x="12" y="6" width="61.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="送货速度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2m5-vA-rKd">
+                    <rect key="frame" x="12" y="39" width="61.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="服务态度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GIo-eU-qBF">
+                    <rect key="frame" x="12" y="72" width="61.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gs8-Eq-sAX">
+                    <rect key="frame" x="243" y="0.0" width="25" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="Xbi-gx-5uq"/>
+                        <constraint firstAttribute="height" constant="30" id="eFJ-ww-gP8"/>
+                    </constraints>
+                    <state key="normal" image="star_normal"/>
+                    <state key="selected" image="star_select"/>
+                    <connections>
+                        <action selector="clickFirstBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="NDs-cH-GBs"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pkj-Dh-Qw8">
+                    <rect key="frame" x="268" y="0.0" width="25" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="YYv-Ap-tNA"/>
+                        <constraint firstAttribute="height" constant="30" id="hgn-v8-DkG"/>
+                    </constraints>
+                    <state key="normal" image="star_normal"/>
+                    <state key="selected" image="star_select"/>
+                    <connections>
+                        <action selector="clickFirstBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="dme-FJ-gRe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cb5-Mh-C02">
+                    <rect key="frame" x="293" y="0.0" width="25" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="08N-IY-wkP"/>
+                        <constraint firstAttribute="height" constant="30" id="wxG-u0-yh9"/>
+                    </constraints>
+                    <state key="normal" image="star_normal"/>
+                    <state key="selected" image="star_select"/>
+                    <connections>
+                        <action selector="clickFirstBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="1KD-K2-za8"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGN-LE-cpU">
+                    <rect key="frame" x="318" y="0.0" width="25" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="Koe-BV-x3J"/>
+                        <constraint firstAttribute="height" constant="30" id="gmn-VK-7aZ"/>
+                    </constraints>
+                    <state key="normal" image="star_normal"/>
+                    <state key="selected" image="star_select"/>
+                    <connections>
+                        <action selector="clickFirstBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="oxH-e7-nY9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Elm-Ik-MWD">
+                    <rect key="frame" x="343" y="0.0" width="25" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Qqk-cs-c1U"/>
+                        <constraint firstAttribute="width" constant="25" id="bot-Ku-jL7"/>
+                    </constraints>
+                    <state key="normal" image="star_normal"/>
+                    <state key="selected" image="star_select"/>
+                    <connections>
+                        <action selector="clickFirstBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="ph4-zS-VVf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VHZ-Ux-f6G">
+                    <rect key="frame" x="245" y="33" width="25" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="OsU-Bm-Meg"/>
+                        <constraint firstAttribute="height" constant="30" id="qKK-OC-MLa"/>
+                    </constraints>
+                    <state key="normal" image="star_normal"/>
+                    <state key="selected" image="star_select"/>
+                    <connections>
+                        <action selector="clickSecondBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="ek6-lY-GpV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Za-cA-hYo">
+                    <rect key="frame" x="270" y="33" width="25" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="7eh-lD-u7U"/>
+                        <constraint firstAttribute="height" constant="30" id="Lwm-SA-xwY"/>
+                    </constraints>
+                    <state key="normal" image="star_normal"/>
+                    <state key="selected" image="star_select"/>
+                    <connections>
+                        <action selector="clickSecondBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="ssv-sR-7Kc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gyd-2d-vnx">
+                    <rect key="frame" x="295" y="33" width="25" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="Rdb-nU-yXh"/>
+                        <constraint firstAttribute="height" constant="30" id="Wl9-M5-mbd"/>
+                    </constraints>
+                    <state key="normal" image="star_normal"/>
+                    <state key="selected" image="star_select"/>
+                    <connections>
+                        <action selector="clickSecondBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="Mzs-Nj-dUo"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJK-iO-gVo">
+                    <rect key="frame" x="320" y="33" width="25" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="sZP-aX-dBb"/>
+                        <constraint firstAttribute="width" constant="25" id="toy-Un-Zhy"/>
+                    </constraints>
+                    <state key="normal" image="star_normal"/>
+                    <state key="selected" image="star_select"/>
+                    <connections>
+                        <action selector="clickSecondBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="Jjy-CV-N7f"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4v-T7-4qR">
+                    <rect key="frame" x="345" y="33" width="25" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="UZ0-dP-WOy"/>
+                        <constraint firstAttribute="width" constant="25" id="vYi-K0-ImK"/>
+                    </constraints>
+                    <state key="normal" image="star_normal"/>
+                    <state key="selected" image="star_select"/>
+                    <connections>
+                        <action selector="clickSecondBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="shM-7k-FbU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mPn-QW-tCi">
+                    <rect key="frame" x="245" y="66" width="25" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="VA5-eT-ffb"/>
+                        <constraint firstAttribute="height" constant="30" id="z3A-b2-aWJ"/>
+                    </constraints>
+                    <state key="normal" image="star_normal"/>
+                    <state key="selected" image="star_select"/>
+                    <connections>
+                        <action selector="clickThirdBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="aje-GX-Xeh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7W6-YM-IHO">
+                    <rect key="frame" x="270" y="66" width="25" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="a9A-Fi-38j"/>
+                        <constraint firstAttribute="width" constant="25" id="aI2-vf-5I9"/>
+                    </constraints>
+                    <state key="normal" image="star_normal"/>
+                    <state key="selected" image="star_select"/>
+                    <connections>
+                        <action selector="clickThirdBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="3eg-dy-8Gt"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oeq-aI-fkD">
+                    <rect key="frame" x="295" y="66" width="25" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="2qJ-eL-jDi"/>
+                        <constraint firstAttribute="width" constant="25" id="gt4-Qk-DUv"/>
+                    </constraints>
+                    <state key="normal" image="star_normal"/>
+                    <state key="selected" image="star_select"/>
+                    <connections>
+                        <action selector="clickThirdBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="rry-7O-LGv"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HaV-bL-s5Z">
+                    <rect key="frame" x="320" y="66" width="25" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="5b0-Dc-LRe"/>
+                        <constraint firstAttribute="height" constant="30" id="BtR-BF-U8j"/>
+                    </constraints>
+                    <state key="normal" image="star_normal"/>
+                    <state key="selected" image="star_select"/>
+                    <connections>
+                        <action selector="clickThirdBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="RcS-06-RGf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1jf-L2-bD4">
+                    <rect key="frame" x="345" y="66" width="25" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="3oG-DW-Tdb"/>
+                        <constraint firstAttribute="height" constant="30" id="Cdx-bK-iMO"/>
+                    </constraints>
+                    <state key="normal" image="star_normal"/>
+                    <state key="selected" image="star_select"/>
+                    <connections>
+                        <action selector="clickThirdBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="FJF-Ww-ifV"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="nwo-Rh-T4e" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="6" id="3zU-Kt-uda"/>
+                <constraint firstItem="pkj-Dh-Qw8" firstAttribute="centerY" secondItem="nwo-Rh-T4e" secondAttribute="centerY" id="42N-pX-qes"/>
+                <constraint firstItem="7W6-YM-IHO" firstAttribute="leading" secondItem="mPn-QW-tCi" secondAttribute="trailing" id="4Ee-b4-qR2"/>
+                <constraint firstItem="BGN-LE-cpU" firstAttribute="centerY" secondItem="nwo-Rh-T4e" secondAttribute="centerY" id="6Mw-qt-2JF"/>
+                <constraint firstItem="HaV-bL-s5Z" firstAttribute="leading" secondItem="Oeq-aI-fkD" secondAttribute="trailing" id="77x-i2-e68"/>
+                <constraint firstItem="Gyd-2d-vnx" firstAttribute="leading" secondItem="7Za-cA-hYo" secondAttribute="trailing" id="9HM-Fg-XOd"/>
+                <constraint firstItem="1jf-L2-bD4" firstAttribute="centerY" secondItem="GIo-eU-qBF" secondAttribute="centerY" id="HQF-VC-0xc"/>
+                <constraint firstItem="Gyd-2d-vnx" firstAttribute="centerY" secondItem="2m5-vA-rKd" secondAttribute="centerY" id="ILn-cl-iFk"/>
+                <constraint firstItem="VHZ-Ux-f6G" firstAttribute="centerY" secondItem="2m5-vA-rKd" secondAttribute="centerY" id="L4T-2n-6Fu"/>
+                <constraint firstItem="7W6-YM-IHO" firstAttribute="centerY" secondItem="GIo-eU-qBF" secondAttribute="centerY" id="LJO-Cp-IKd"/>
+                <constraint firstItem="Elm-Ik-MWD" firstAttribute="centerY" secondItem="nwo-Rh-T4e" secondAttribute="centerY" id="OXf-qU-vvt"/>
+                <constraint firstItem="Elm-Ik-MWD" firstAttribute="leading" secondItem="BGN-LE-cpU" secondAttribute="trailing" id="Of5-1M-mJo"/>
+                <constraint firstAttribute="trailing" secondItem="Elm-Ik-MWD" secondAttribute="trailing" constant="7" id="PXt-zf-aMW"/>
+                <constraint firstItem="Oeq-aI-fkD" firstAttribute="leading" secondItem="7W6-YM-IHO" secondAttribute="trailing" id="Vm5-yO-ghc"/>
+                <constraint firstItem="Oeq-aI-fkD" firstAttribute="centerY" secondItem="GIo-eU-qBF" secondAttribute="centerY" id="XLi-mT-1KS"/>
+                <constraint firstItem="2m5-vA-rKd" firstAttribute="top" secondItem="nwo-Rh-T4e" secondAttribute="bottom" constant="15" id="XT0-3p-M28"/>
+                <constraint firstItem="nwo-Rh-T4e" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="YY9-Eu-Imd"/>
+                <constraint firstItem="OJK-iO-gVo" firstAttribute="centerY" secondItem="2m5-vA-rKd" secondAttribute="centerY" id="ZaC-Dx-ceU"/>
+                <constraint firstAttribute="trailing" secondItem="1jf-L2-bD4" secondAttribute="trailing" constant="5" id="bBr-ff-CSc"/>
+                <constraint firstItem="Gs8-Eq-sAX" firstAttribute="centerY" secondItem="nwo-Rh-T4e" secondAttribute="centerY" id="bKx-DH-h6w"/>
+                <constraint firstItem="GIo-eU-qBF" firstAttribute="top" secondItem="2m5-vA-rKd" secondAttribute="bottom" constant="15" id="cWM-hj-JwW"/>
+                <constraint firstItem="cb5-Mh-C02" firstAttribute="leading" secondItem="pkj-Dh-Qw8" secondAttribute="trailing" id="d9r-1s-tvK"/>
+                <constraint firstAttribute="trailing" secondItem="h4v-T7-4qR" secondAttribute="trailing" constant="5" id="gIh-04-VWb"/>
+                <constraint firstItem="OJK-iO-gVo" firstAttribute="leading" secondItem="Gyd-2d-vnx" secondAttribute="trailing" id="j7g-7f-JaI"/>
+                <constraint firstItem="pkj-Dh-Qw8" firstAttribute="leading" secondItem="Gs8-Eq-sAX" secondAttribute="trailing" id="l83-Vd-BOp"/>
+                <constraint firstItem="cb5-Mh-C02" firstAttribute="centerY" secondItem="nwo-Rh-T4e" secondAttribute="centerY" id="lbY-7E-uuD"/>
+                <constraint firstItem="7Za-cA-hYo" firstAttribute="leading" secondItem="VHZ-Ux-f6G" secondAttribute="trailing" id="n7z-Gk-CSo"/>
+                <constraint firstItem="GIo-eU-qBF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="pYr-Ri-OGd"/>
+                <constraint firstItem="h4v-T7-4qR" firstAttribute="leading" secondItem="OJK-iO-gVo" secondAttribute="trailing" id="pjR-QD-Jio"/>
+                <constraint firstItem="7Za-cA-hYo" firstAttribute="centerY" secondItem="2m5-vA-rKd" secondAttribute="centerY" id="qgz-gf-nei"/>
+                <constraint firstItem="h4v-T7-4qR" firstAttribute="centerY" secondItem="2m5-vA-rKd" secondAttribute="centerY" id="qzg-SF-Imn"/>
+                <constraint firstItem="2m5-vA-rKd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="tHF-Ct-gYr"/>
+                <constraint firstItem="BGN-LE-cpU" firstAttribute="leading" secondItem="cb5-Mh-C02" secondAttribute="trailing" id="u8Z-bj-ZYk"/>
+                <constraint firstItem="mPn-QW-tCi" firstAttribute="centerY" secondItem="GIo-eU-qBF" secondAttribute="centerY" id="vWb-Yw-H69"/>
+                <constraint firstItem="1jf-L2-bD4" firstAttribute="leading" secondItem="HaV-bL-s5Z" secondAttribute="trailing" id="xDG-wq-fJg"/>
+                <constraint firstItem="HaV-bL-s5Z" firstAttribute="centerY" secondItem="GIo-eU-qBF" secondAttribute="centerY" id="xwE-lY-uus"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="firstBtn1" destination="Gs8-Eq-sAX" id="1P0-Uv-T8z"/>
+                <outlet property="firstBtn2" destination="pkj-Dh-Qw8" id="weX-p1-U18"/>
+                <outlet property="firstBtn3" destination="cb5-Mh-C02" id="ynV-Pa-nI1"/>
+                <outlet property="firstBtn4" destination="BGN-LE-cpU" id="WVi-re-sFv"/>
+                <outlet property="firstBtn5" destination="Elm-Ik-MWD" id="fBU-4e-NCP"/>
+                <outlet property="firstLab" destination="nwo-Rh-T4e" id="wSw-nP-QP0"/>
+                <outlet property="secondBtn1" destination="VHZ-Ux-f6G" id="0Oh-GZ-54f"/>
+                <outlet property="secondBtn2" destination="7Za-cA-hYo" id="bcd-lr-xal"/>
+                <outlet property="secondBtn3" destination="Gyd-2d-vnx" id="k4B-DA-dbm"/>
+                <outlet property="secondBtn4" destination="OJK-iO-gVo" id="1yj-vy-I1I"/>
+                <outlet property="secondBtn5" destination="h4v-T7-4qR" id="YzG-z0-fDu"/>
+                <outlet property="secondLab" destination="2m5-vA-rKd" id="GVd-BN-nK1"/>
+                <outlet property="thirdBtn1" destination="mPn-QW-tCi" id="ODA-5n-Q7D"/>
+                <outlet property="thirdBtn2" destination="7W6-YM-IHO" id="vd3-tT-Zy0"/>
+                <outlet property="thirdBtn3" destination="Oeq-aI-fkD" id="J0h-I4-5pG"/>
+                <outlet property="thirdBtn4" destination="HaV-bL-s5Z" id="2jr-CX-DIu"/>
+                <outlet property="thirdBtn5" destination="1jf-L2-bD4" id="Inj-cx-BWp"/>
+                <outlet property="thirdLab" destination="GIo-eU-qBF" id="OHO-P9-WLF"/>
+            </connections>
+            <point key="canvasLocation" x="-45.600000000000001" y="191.1544227886057"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="star_normal" width="15" height="14"/>
+        <image name="star_select" width="15" height="14"/>
+    </resources>
+</document>

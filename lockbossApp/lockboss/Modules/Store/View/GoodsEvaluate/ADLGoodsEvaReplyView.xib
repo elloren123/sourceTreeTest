@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ADLGoodsEvaReplyView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="enz-To-5gD">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="0.5"/>
+                    <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="ueN-D3-73c"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ziw-bt-Zp6">
+                    <rect key="frame" x="328" y="0.0" width="35" height="55"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="  0" image="goods_evaluate_b">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LwV-7e-Q3h">
+                    <rect key="frame" x="277" y="0.0" width="35" height="55"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="  0" image="dz_bottom_n">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="selected" image="dz_bottom_s"/>
+                    <connections>
+                        <action selector="clickPraiseBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="Bcb-JF-Jgi"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qjp-1T-JcZ">
+                    <rect key="frame" x="12" y="10" width="249" height="35"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="说点什么吧..." textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="rMr-n1-isu">
+                            <rect key="frame" x="6" y="0.0" width="237" height="35"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="send"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="rMr-n1-isu" secondAttribute="trailing" constant="6" id="ZVi-ob-LsN"/>
+                        <constraint firstItem="rMr-n1-isu" firstAttribute="leading" secondItem="qjp-1T-JcZ" secondAttribute="leading" constant="6" id="mct-yq-2iS"/>
+                        <constraint firstAttribute="bottom" secondItem="rMr-n1-isu" secondAttribute="bottom" id="wjC-Zq-WDc"/>
+                        <constraint firstItem="rMr-n1-isu" firstAttribute="top" secondItem="qjp-1T-JcZ" secondAttribute="top" id="xxi-sj-uW6"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="LwV-7e-Q3h" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3zx-sO-dHw"/>
+                <constraint firstAttribute="trailing" secondItem="enz-To-5gD" secondAttribute="trailing" id="4rb-YJ-txS"/>
+                <constraint firstItem="qjp-1T-JcZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="53d-BH-h90"/>
+                <constraint firstItem="LwV-7e-Q3h" firstAttribute="leading" secondItem="qjp-1T-JcZ" secondAttribute="trailing" constant="16" id="5HA-ji-Rfo"/>
+                <constraint firstItem="enz-To-5gD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Ec1-0r-17B"/>
+                <constraint firstAttribute="bottom" secondItem="qjp-1T-JcZ" secondAttribute="bottom" constant="10" id="HGo-z9-MNs"/>
+                <constraint firstAttribute="bottom" secondItem="ziw-bt-Zp6" secondAttribute="bottom" id="KmS-JW-u7j"/>
+                <constraint firstAttribute="bottom" secondItem="LwV-7e-Q3h" secondAttribute="bottom" id="P72-1A-fNK"/>
+                <constraint firstItem="qjp-1T-JcZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="WAd-jG-BCz"/>
+                <constraint firstItem="enz-To-5gD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="aTf-d4-w3F"/>
+                <constraint firstItem="ziw-bt-Zp6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bB9-76-cgn"/>
+                <constraint firstAttribute="trailing" secondItem="ziw-bt-Zp6" secondAttribute="trailing" constant="12" id="jkX-H2-YRi"/>
+                <constraint firstItem="ziw-bt-Zp6" firstAttribute="leading" secondItem="LwV-7e-Q3h" secondAttribute="trailing" constant="16" id="me8-ar-0q9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bgView" destination="qjp-1T-JcZ" id="Wa0-C9-g9r"/>
+                <outlet property="praiseBtn" destination="LwV-7e-Q3h" id="NvJ-9b-Yxw"/>
+                <outlet property="replyBtn" destination="ziw-bt-Zp6" id="rP7-MS-aJS"/>
+                <outlet property="textField" destination="rMr-n1-isu" id="5La-3t-ube"/>
+            </connections>
+            <point key="canvasLocation" x="53.600000000000001" y="2.6986506746626691"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="dz_bottom_n" width="17" height="16"/>
+        <image name="dz_bottom_s" width="17" height="16"/>
+        <image name="goods_evaluate_b" width="17" height="16"/>
+    </resources>
+</document>

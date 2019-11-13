@@ -1,0 +1,6 @@
+framework module NETLockAPI {
+  umbrella header "NETLockAPI.h"
+
+  export *
+  module * { export * }
+}

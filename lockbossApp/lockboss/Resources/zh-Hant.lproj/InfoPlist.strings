@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  lockboss
+
+  Created by adel on 2019/7/15.
+  Copyright © 2019年 adel. All rights reserved.
+*/
+
+CFBundleDisplayName = "鎖老大";
+NSCameraUsageDescription = "鎖老大需要您的同意才可以使用相機";
+NSMicrophoneUsageDescription = "鎖老大需要使用您的麥克風來錄製視頻";
+NSPhotoLibraryUsageDescription = "鎖老大需要您的同意才可以訪問相冊";
+NSPhotoLibraryAddUsageDescription = "鎖老大需要您的同意才可以訪問相冊";
+NSLocationWhenInUseUsageDescription = "鎖老大需要使用您的位置來獲取備案人信息";

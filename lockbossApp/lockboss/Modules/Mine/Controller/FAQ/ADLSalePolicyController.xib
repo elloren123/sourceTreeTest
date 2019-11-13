@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ADLSalePolicyController">
+            <connections>
+                <outlet property="height" destination="tET-hC-za7" id="Gf1-Xj-OfI"/>
+                <outlet property="lab7" destination="8Ic-Lu-HeR" id="Z2R-eJ-hRL"/>
+                <outlet property="topH" destination="Usr-Gs-xv4" id="hF7-5z-z0e"/>
+                <outlet property="view" destination="iN0-l3-epB" id="5kM-dS-VDM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSO-1f-bsW">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tbC-l9-EXr">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="600"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="problem_banner_shzc" translatesAutoresizingMaskIntoConstraints="NO" id="enB-eV-tyd">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="125"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="enB-eV-tyd" secondAttribute="height" multiplier="3:1" id="18O-aH-I0r"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Po1-PX-L9t">
+                                    <rect key="frame" x="12" y="137" width="351" height="51"/>
+                                    <attributedString key="attributedText">
+                                        <fragment content="本商品严格依据《中华人民共和国消费者权益保护法》、《中华人民共和国产品质量法》实行售后服务，服务内容如下：">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="13" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="6" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="一、退换货政策" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bb-AJ-3ys">
+                                    <rect key="frame" x="12" y="208" width="351" height="21"/>
+                                    <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="15"/>
+                                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4d-Ry-Dlp">
+                                    <rect key="frame" x="12" y="239" width="351" height="108"/>
+                                    <attributedString key="attributedText">
+                                        <fragment>
+                                            <string key="content">1、凡通过锁老大商城购买商品的用户，可自签收次日起七日内享受无理由退货服务。退货时用户需出示有效购买凭证，并退回发票。用户须保证退货商品保持原有品质和功能、外观完好、商品本身及配件的商标和各种标识完整齐全，如有赠品需一并退回。如果商品出现人为损坏、零配件缺失的情况，不予办理退货。</string>
+                                            <attributes>
+                                                <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="13" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="6" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bf-he-C6H">
+                                    <rect key="frame" x="12" y="357" width="351" height="70"/>
+                                    <attributedString key="attributedText">
+                                        <fragment content="2、自用户签收次日起七日内，发生非人为损坏性能故障，经由锁老大售后服务中心检测确认后，为用户办理退货业务，退货时用户须出示有效购买凭证，并退回发票。如有赠品需一并退回。">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="13" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="6" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICQ-UK-102">
+                                    <rect key="frame" x="12" y="437" width="351" height="51"/>
+                                    <attributedString key="attributedText">
+                                        <fragment content="3、自用户签收次日起三十日内，发生非人为损坏性能故障，经由锁老大售后服务中心检测确认后，为用户办理换货业务，更换整套商品。换货后，商品本身三包期重新计算。">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="13" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="6" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="二、保修政策" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZ7-Wa-Z5Y">
+                                    <rect key="frame" x="12" y="508" width="351" height="21"/>
+                                    <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="15"/>
+                                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ic-Lu-HeR">
+                                    <rect key="frame" x="12" y="539" width="351" height="51"/>
+                                    <attributedString key="attributedText">
+                                        <fragment content="自用户签收次日起三十日后，发生非人为损坏性能故障，且在保修期限内，经由锁老大售后服务中心检测确认后，为用户办理维修业务。">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="13" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="6" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="3bb-AJ-3ys" firstAttribute="leading" secondItem="tbC-l9-EXr" secondAttribute="leading" constant="12" id="53S-iY-sEs"/>
+                                <constraint firstAttribute="trailing" secondItem="8Ic-Lu-HeR" secondAttribute="trailing" constant="12" id="72e-wo-9vI"/>
+                                <constraint firstItem="QZ7-Wa-Z5Y" firstAttribute="leading" secondItem="tbC-l9-EXr" secondAttribute="leading" constant="12" id="7pR-3b-feL"/>
+                                <constraint firstItem="ICQ-UK-102" firstAttribute="leading" secondItem="tbC-l9-EXr" secondAttribute="leading" constant="12" id="8kN-L4-8BJ"/>
+                                <constraint firstItem="U4d-Ry-Dlp" firstAttribute="top" secondItem="3bb-AJ-3ys" secondAttribute="bottom" constant="10" id="HEQ-Dz-Xcs"/>
+                                <constraint firstItem="8Ic-Lu-HeR" firstAttribute="leading" secondItem="tbC-l9-EXr" secondAttribute="leading" constant="12" id="K4l-8O-EXo"/>
+                                <constraint firstItem="Po1-PX-L9t" firstAttribute="leading" secondItem="tbC-l9-EXr" secondAttribute="leading" constant="12" id="LF5-cw-VdI"/>
+                                <constraint firstItem="enB-eV-tyd" firstAttribute="leading" secondItem="tbC-l9-EXr" secondAttribute="leading" id="MGz-XC-hX9"/>
+                                <constraint firstItem="ICQ-UK-102" firstAttribute="top" secondItem="2bf-he-C6H" secondAttribute="bottom" constant="10" id="Tqm-Jb-qnc"/>
+                                <constraint firstAttribute="trailing" secondItem="ICQ-UK-102" secondAttribute="trailing" constant="12" id="YlC-SE-rbb"/>
+                                <constraint firstAttribute="trailing" secondItem="3bb-AJ-3ys" secondAttribute="trailing" constant="12" id="aZ1-Du-8Mg"/>
+                                <constraint firstItem="2bf-he-C6H" firstAttribute="leading" secondItem="tbC-l9-EXr" secondAttribute="leading" constant="12" id="b7K-0F-XWf"/>
+                                <constraint firstAttribute="trailing" secondItem="QZ7-Wa-Z5Y" secondAttribute="trailing" constant="12" id="cIS-zi-iAo"/>
+                                <constraint firstItem="3bb-AJ-3ys" firstAttribute="top" secondItem="Po1-PX-L9t" secondAttribute="bottom" constant="20" id="g6a-yA-GOm"/>
+                                <constraint firstItem="U4d-Ry-Dlp" firstAttribute="leading" secondItem="tbC-l9-EXr" secondAttribute="leading" constant="12" id="gl0-bZ-GA1"/>
+                                <constraint firstAttribute="trailing" secondItem="2bf-he-C6H" secondAttribute="trailing" constant="12" id="gnC-wu-9Vg"/>
+                                <constraint firstAttribute="trailing" secondItem="U4d-Ry-Dlp" secondAttribute="trailing" constant="12" id="h2e-4M-92X"/>
+                                <constraint firstItem="2bf-he-C6H" firstAttribute="top" secondItem="U4d-Ry-Dlp" secondAttribute="bottom" constant="10" id="j4S-cS-ltu"/>
+                                <constraint firstAttribute="trailing" secondItem="Po1-PX-L9t" secondAttribute="trailing" constant="12" id="lep-xx-ZDM"/>
+                                <constraint firstAttribute="trailing" secondItem="enB-eV-tyd" secondAttribute="trailing" id="nXf-S7-bLz"/>
+                                <constraint firstItem="enB-eV-tyd" firstAttribute="top" secondItem="tbC-l9-EXr" secondAttribute="top" id="s8I-99-hrx"/>
+                                <constraint firstAttribute="height" constant="600" id="tET-hC-za7"/>
+                                <constraint firstItem="QZ7-Wa-Z5Y" firstAttribute="top" secondItem="ICQ-UK-102" secondAttribute="bottom" constant="20" id="toZ-C4-NAd"/>
+                                <constraint firstItem="8Ic-Lu-HeR" firstAttribute="top" secondItem="QZ7-Wa-Z5Y" secondAttribute="bottom" constant="10" id="vMd-kg-uFc"/>
+                                <constraint firstItem="Po1-PX-L9t" firstAttribute="top" secondItem="enB-eV-tyd" secondAttribute="bottom" constant="12" id="y1h-Hr-p9g"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="tbC-l9-EXr" firstAttribute="centerX" secondItem="ZSO-1f-bsW" secondAttribute="centerX" id="FV3-vJ-WKn"/>
+                        <constraint firstItem="tbC-l9-EXr" firstAttribute="leading" secondItem="ZSO-1f-bsW" secondAttribute="leading" id="Ghw-Pj-aj2"/>
+                        <constraint firstAttribute="bottom" secondItem="tbC-l9-EXr" secondAttribute="bottom" id="Quo-CD-Ysc"/>
+                        <constraint firstItem="tbC-l9-EXr" firstAttribute="top" secondItem="ZSO-1f-bsW" secondAttribute="top" id="pzZ-di-7XP"/>
+                        <constraint firstAttribute="trailing" secondItem="tbC-l9-EXr" secondAttribute="trailing" id="zNL-n0-LbE"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ZSO-1f-bsW" secondAttribute="bottom" id="F7m-8U-Ax4"/>
+                <constraint firstItem="ZSO-1f-bsW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Mpj-li-Q8h"/>
+                <constraint firstItem="ZSO-1f-bsW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Usr-Gs-xv4"/>
+                <constraint firstItem="ZSO-1f-bsW" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="hz6-7d-g4r"/>
+            </constraints>
+            <point key="canvasLocation" x="63.75" y="102.46478873239437"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="problem_banner_shzc" width="375" height="125"/>
+    </resources>
+</document>

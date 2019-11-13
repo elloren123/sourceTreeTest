@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ADLGoodsNameView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="151"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="认证认证认证认证认证认证认证认证认证认证认证认证认证认证认证认证认证认证认证认证认证" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Gb-9F-yyk">
+                    <rect key="frame" x="12" y="12" width="351" height="38.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cso-eC-lgG">
+                    <rect key="frame" x="12" y="55.5" width="351" height="31.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥ 0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ede-BZ-luj">
+                    <rect key="frame" x="12" y="93" width="55" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="99j-W6-Ffq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <color key="textColor" red="0.85490196939999996" green="0.1450979412" blue="0.1098039076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="剩余0件" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCI-Gu-RSD">
+                    <rect key="frame" x="12" y="123" width="44.5" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Cso-eC-lgG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="8wT-pf-NIJ"/>
+                <constraint firstItem="Cso-eC-lgG" firstAttribute="top" secondItem="0Gb-9F-yyk" secondAttribute="bottom" constant="5" id="CNy-Na-YGB"/>
+                <constraint firstItem="0Gb-9F-yyk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="Ch6-jA-Sf2"/>
+                <constraint firstItem="ede-BZ-luj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="Df5-xV-yF1"/>
+                <constraint firstItem="0Gb-9F-yyk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="GOB-w4-43M"/>
+                <constraint firstAttribute="trailing" secondItem="0Gb-9F-yyk" secondAttribute="trailing" constant="12" id="HQa-V9-ggS"/>
+                <constraint firstItem="ede-BZ-luj" firstAttribute="top" secondItem="Cso-eC-lgG" secondAttribute="bottom" constant="6" id="S8M-2A-gBu"/>
+                <constraint firstItem="FCI-Gu-RSD" firstAttribute="top" secondItem="ede-BZ-luj" secondAttribute="bottom" constant="5" id="fmB-2G-NSw"/>
+                <constraint firstAttribute="trailing" secondItem="Cso-eC-lgG" secondAttribute="trailing" constant="12" id="wdg-D9-7kG"/>
+                <constraint firstItem="FCI-Gu-RSD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="ymz-l5-itQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="descLab" destination="Cso-eC-lgG" id="TXh-hY-d8i"/>
+                <outlet property="inventoryLab" destination="FCI-Gu-RSD" id="Wa3-rf-sqw"/>
+                <outlet property="nameLab" destination="0Gb-9F-yyk" id="pbL-kn-SGl"/>
+                <outlet property="priceLab" destination="ede-BZ-luj" id="eHU-bL-NfI"/>
+            </connections>
+            <point key="canvasLocation" x="55.200000000000003" y="-183.95802098950526"/>
+        </view>
+    </objects>
+</document>

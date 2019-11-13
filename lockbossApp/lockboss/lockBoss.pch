@@ -1,0 +1,36 @@
+//
+//  lockBoss.pch
+//  lockboss
+//
+//  Created by adel on 2019/9/11.
+//  Copyright © 2019 adel. All rights reserved.
+//
+
+#ifndef lockBoss_pch
+#define lockBoss_pch
+
+//类扩展
+#import "UIView+Extension.h"
+
+#import "ADLLocalizedHelper.h"
+#import "ADLGlobalDefine.h"
+#import "ADLUtils.h"
+#import "ADLToast.h"
+#import "ADLTimeOrStamp.h"
+//第三方
+#import <Masonry.h>
+#import "MJExtension.h"
+#import "MJRefresh.h"
+
+
+#define WS(weakSelf)  __weak typeof(&*self)weakSelf = self
+
+#ifdef DEBUG // 处于开发阶段
+#define ADLLog(fmt, ...) NSLog((@"[File:%s]" "[Function:%s]" "[Line:%d]" fmt), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else // 处于发布阶段
+#define ADLLog(...)
+#endif
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* lockBoss_pch */

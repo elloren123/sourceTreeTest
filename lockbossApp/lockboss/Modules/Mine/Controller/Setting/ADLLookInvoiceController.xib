@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ADLLookInvoiceController">
+            <connections>
+                <outlet property="topH" destination="4DZ-g9-Uoc" id="Rzj-Ky-DM2"/>
+                <outlet property="view" destination="iN0-l3-epB" id="wjk-8O-CRv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="申请开具增值税专用发票确认书" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNa-z0-SkK">
+                    <rect key="frame" x="53" y="20" width="214.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2c-th-vhe">
+                    <rect key="frame" x="12" y="54" width="296" height="146"/>
+                    <attributedString key="attributedText">
+                        <fragment>
+                            <string key="content">根据国家税法及发票管理相关规定，任何单位和个人不得要求他人为自己开具与实际经营业务情况不符的增值税专用发票【包括并不限于（1）在没有货物采购或者没有接受应税劳务的情况下要求他人为自己开具增值税专用发票；（2）虽有货物采购或者接受应税劳务但要求他人为自己开具数量或金额与实际情况不符的增值税专用发票】，否则属于“虚开增值税专用发票”。</string>
+                            <attributes>
+                                <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" size="13" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="6" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3g-6A-QWa">
+                    <rect key="frame" x="12" y="216" width="296" height="70"/>
+                    <attributedString key="attributedText">
+                        <fragment content="我已充分了解上述各项相关国家税法和发票管理规定，并确认仅就我司实际购买商品或服务索取发票。如我司未按国家相关规定申请开具或使用增值税专用发票，由我司自行承担相应法律后果。">
+                            <attributes>
+                                <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" size="13" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="6" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="V3g-6A-QWa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="18s-yX-ykT"/>
+                <constraint firstItem="JNa-z0-SkK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="4DZ-g9-Uoc"/>
+                <constraint firstItem="JNa-z0-SkK" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Hrx-fM-RQ7"/>
+                <constraint firstItem="R2c-th-vhe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="ckE-NV-LJk"/>
+                <constraint firstAttribute="trailing" secondItem="R2c-th-vhe" secondAttribute="trailing" constant="12" id="frd-OS-eAP"/>
+                <constraint firstItem="V3g-6A-QWa" firstAttribute="top" secondItem="R2c-th-vhe" secondAttribute="bottom" constant="16" id="oc9-ir-Bo8"/>
+                <constraint firstItem="R2c-th-vhe" firstAttribute="top" secondItem="JNa-z0-SkK" secondAttribute="bottom" constant="16" id="pod-D0-Uic"/>
+                <constraint firstAttribute="trailing" secondItem="V3g-6A-QWa" secondAttribute="trailing" constant="12" id="uOC-ko-Yv1"/>
+            </constraints>
+            <point key="canvasLocation" x="-158" y="-452"/>
+        </view>
+    </objects>
+</document>

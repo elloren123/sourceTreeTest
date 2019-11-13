@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PullCell" id="gTV-IL-0wX" customClass="ADLClassifySelCell">
+            <rect key="frame" x="0.0" y="0.0" width="226" height="38"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="226" height="38"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLf-7h-2Lu">
+                        <rect key="frame" x="16" y="10" width="37.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="classify_sel_check" translatesAutoresizingMaskIntoConstraints="NO" id="fVJ-Yo-g9Y">
+                        <rect key="frame" x="65.5" y="15" width="12" height="8"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fVJ-Yo-g9Y" firstAttribute="centerY" secondItem="oLf-7h-2Lu" secondAttribute="centerY" id="IDP-xB-pxg"/>
+                <constraint firstItem="oLf-7h-2Lu" firstAttribute="width" relation="lessThanOrEqual" secondItem="gTV-IL-0wX" secondAttribute="width" constant="-60" id="PxC-5b-seH"/>
+                <constraint firstItem="oLf-7h-2Lu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="Zam-Dg-cF8"/>
+                <constraint firstItem="fVJ-Yo-g9Y" firstAttribute="leading" secondItem="oLf-7h-2Lu" secondAttribute="trailing" constant="12" id="aIs-AF-hmF"/>
+                <constraint firstItem="oLf-7h-2Lu" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="zpY-56-lkw"/>
+            </constraints>
+            <size key="customSize" width="226" height="38"/>
+            <connections>
+                <outlet property="imgView" destination="fVJ-Yo-g9Y" id="IcE-UA-mmR"/>
+                <outlet property="titLab" destination="oLf-7h-2Lu" id="Zuu-KY-Ylt"/>
+            </connections>
+            <point key="canvasLocation" x="12.800000000000001" y="66.566716641679164"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="classify_sel_check" width="12" height="8"/>
+    </resources>
+</document>

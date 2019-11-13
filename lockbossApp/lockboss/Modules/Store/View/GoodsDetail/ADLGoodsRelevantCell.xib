@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GoodsRelevantCell" id="gTV-IL-0wX" customClass="ADLGoodsRelevantCell">
+            <rect key="frame" x="0.0" y="0.0" width="182" height="247"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="182" height="247"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qB4-aF-10v">
+                        <rect key="frame" x="8" y="8" width="166" height="166"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="qB4-aF-10v" secondAttribute="height" multiplier="1:1" id="QK8-Nb-xn4"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LabelLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FIa-se-OjA">
+                        <rect key="frame" x="8" y="184" width="166" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥ 2299.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFs-lh-XoS">
+                        <rect key="frame" x="8" y="211" width="166" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.85490196078431369" green="0.14509803921568626" blue="0.10980392156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="FIa-se-OjA" secondAttribute="trailing" constant="8" id="1hs-oI-Ej3"/>
+                <constraint firstItem="qB4-aF-10v" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="4Ca-aW-hC7"/>
+                <constraint firstItem="GFs-lh-XoS" firstAttribute="top" secondItem="FIa-se-OjA" secondAttribute="bottom" constant="9" id="Jif-xT-HLQ"/>
+                <constraint firstAttribute="trailing" secondItem="GFs-lh-XoS" secondAttribute="trailing" constant="8" id="Km7-Hk-GYT"/>
+                <constraint firstItem="FIa-se-OjA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="NfI-j7-w21"/>
+                <constraint firstAttribute="trailing" secondItem="qB4-aF-10v" secondAttribute="trailing" constant="8" id="UQv-r5-4nh"/>
+                <constraint firstItem="GFs-lh-XoS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="cGt-b1-VeG"/>
+                <constraint firstItem="qB4-aF-10v" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="ifT-eG-qJe"/>
+                <constraint firstItem="FIa-se-OjA" firstAttribute="top" secondItem="qB4-aF-10v" secondAttribute="bottom" constant="10" id="xYB-ro-1do"/>
+            </constraints>
+            <size key="customSize" width="182" height="247"/>
+            <connections>
+                <outlet property="imgView" destination="qB4-aF-10v" id="pe3-yx-TAW"/>
+                <outlet property="moneyLab" destination="GFs-lh-XoS" id="eEx-5r-MJk"/>
+                <outlet property="nameLab" destination="FIa-se-OjA" id="d6x-AH-jB2"/>
+            </connections>
+            <point key="canvasLocation" x="30.399999999999999" y="200.14992503748127"/>
+        </collectionViewCell>
+    </objects>
+</document>

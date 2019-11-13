@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LockerDetailCell" rowHeight="147" id="KGk-i7-Jjw" customClass="ADLLockerDetailCell">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="147"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="146.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NPg-Zx-q7y">
+                        <rect key="frame" x="12" y="12" width="3" height="16"/>
+                        <color key="backgroundColor" red="0.85490196080000003" green="0.1450980392" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="3" id="4hF-6P-ATc"/>
+                            <constraint firstAttribute="height" constant="16" id="emN-xb-53Z"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="锁匠介绍" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Wk-ga-561">
+                        <rect key="frame" x="21" y="11" width="61.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KhV-HJ-C5G">
+                        <rect key="frame" x="12" y="42" width="390" height="81"/>
+                        <attributedString key="attributedText">
+                            <fragment content="专业从事开锁、修锁业务，我们以热情，快速，高效,">
+                                <attributes>
+                                    <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" size="15" name=".PingFangSC-Regular"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="6" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content=" ">
+                                <attributes>
+                                    <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" metaFont="system" size="15"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="6" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content="过硬的技术，先进的设备，真诚的服务保证各位客户的满意，我们将用精湛的技术，为您排忧解难，帮你解决繁“锁”之事。">
+                                <attributes>
+                                    <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" size="15" name=".PingFangSC-Regular"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="6" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1vs-Ig-mcJ">
+                        <rect key="frame" x="0.0" y="138.5" width="414" height="8"/>
+                        <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="8" id="dv0-ec-1dZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5Wk-ga-561" firstAttribute="leading" secondItem="NPg-Zx-q7y" secondAttribute="trailing" constant="6" id="84F-0f-ACo"/>
+                    <constraint firstAttribute="trailing" secondItem="KhV-HJ-C5G" secondAttribute="trailing" constant="12" id="Gp5-hV-PSw"/>
+                    <constraint firstItem="5Wk-ga-561" firstAttribute="centerY" secondItem="NPg-Zx-q7y" secondAttribute="centerY" id="MnF-ZW-ghm"/>
+                    <constraint firstItem="KhV-HJ-C5G" firstAttribute="top" secondItem="5Wk-ga-561" secondAttribute="bottom" constant="13" id="OCn-nf-oJF"/>
+                    <constraint firstAttribute="bottom" secondItem="1vs-Ig-mcJ" secondAttribute="bottom" id="U9M-Ro-UaS"/>
+                    <constraint firstItem="1vs-Ig-mcJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Ybp-ur-Xsg"/>
+                    <constraint firstItem="NPg-Zx-q7y" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="kPC-p5-W4U"/>
+                    <constraint firstItem="KhV-HJ-C5G" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="los-Lq-Uht"/>
+                    <constraint firstItem="NPg-Zx-q7y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="nAi-D6-vRE"/>
+                    <constraint firstAttribute="trailing" secondItem="1vs-Ig-mcJ" secondAttribute="trailing" id="qXS-ID-6tm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="detailLab" destination="KhV-HJ-C5G" id="32q-hi-gqy"/>
+                <outlet property="titLab" destination="5Wk-ga-561" id="IrP-a6-ZsS"/>
+            </connections>
+            <point key="canvasLocation" x="128" y="31.934032983508249"/>
+        </tableViewCell>
+    </objects>
+</document>

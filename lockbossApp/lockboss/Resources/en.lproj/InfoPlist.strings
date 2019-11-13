@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  lockboss
+
+  Created by adel on 2019/7/15.
+  Copyright © 2019年 adel. All rights reserved.
+*/
+
+CFBundleDisplayName = "Lock Boss";
+NSCameraUsageDescription = "Lock Boss needs your consent to use the camera";
+NSPhotoLibraryUsageDescription = "Lock Boss needs your consent to access the album";
+NSPhotoLibraryAddUsageDescription = "Lock Boss needs your consent to access the album";
+NSMicrophoneUsageDescription = "Lock Boss needs to use your microphone to record video";
+NSLocationWhenInUseUsageDescription = "Lock Boss needs to use your location to get the filer information";

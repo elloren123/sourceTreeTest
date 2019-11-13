@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="msgDetail" rowHeight="150" id="KGk-i7-Jjw" customClass="ADLMsgDetailCell">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="335" height="149.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6hf-lf-uBc">
+                        <rect key="frame" x="0.0" y="56" width="38" height="38"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="38" id="m54-LI-eeC"/>
+                            <constraint firstAttribute="width" constant="38" id="rsm-i9-NHe"/>
+                        </constraints>
+                        <state key="normal" image="check_normal"/>
+                        <state key="selected" image="check_selected"/>
+                        <connections>
+                            <action selector="clickCheckBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="enD-uE-YQU"/>
+                        </connections>
+                    </button>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8OX-Lo-ExP">
+                        <rect key="frame" x="12" y="12" width="311" height="136.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="爱迪尔US99指纹防盗门电子密码锁 刷卡感应锁 滑盖智能门锁，仅2688元起，千万别错过！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qlC-Oe-PIs">
+                                <rect key="frame" x="0.0" y="0.0" width="311" height="54"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="爱迪尔US99指纹防盗门电子密码锁 刷卡感应锁 滑盖智能门锁，仅2688元起，千万别错过！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94J-Az-2To">
+                                <rect key="frame" x="0.0" y="63" width="311" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="爱迪尔" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WCr-eq-s21">
+                                <rect key="frame" x="0.0" y="104.5" width="37" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fgz-PZ-mkg">
+                                <rect key="frame" x="302" y="101" width="9" height="22"/>
+                                <state key="normal" image="fold_down"/>
+                                <state key="selected" image="fold_up"/>
+                                <connections>
+                                    <action selector="clickPullBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="l76-di-n2Q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fNU-9k-RaR">
+                                <rect key="frame" x="272" y="98.5" width="30" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="展开">
+                                    <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="selected" title="收起"/>
+                                <connections>
+                                    <action selector="clickPullTextBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="qgR-Xe-wLp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WCr-eq-s21" firstAttribute="leading" secondItem="8OX-Lo-ExP" secondAttribute="leading" id="4D4-rL-7UB"/>
+                            <constraint firstAttribute="trailing" secondItem="Fgz-PZ-mkg" secondAttribute="trailing" id="D4a-Ne-2qJ"/>
+                            <constraint firstItem="Fgz-PZ-mkg" firstAttribute="centerY" secondItem="WCr-eq-s21" secondAttribute="centerY" id="E4D-tr-2ev"/>
+                            <constraint firstItem="94J-Az-2To" firstAttribute="leading" secondItem="8OX-Lo-ExP" secondAttribute="leading" id="FMV-MC-Jwr"/>
+                            <constraint firstItem="qlC-Oe-PIs" firstAttribute="top" secondItem="8OX-Lo-ExP" secondAttribute="top" id="Ira-Yx-5i8"/>
+                            <constraint firstItem="qlC-Oe-PIs" firstAttribute="leading" secondItem="8OX-Lo-ExP" secondAttribute="leading" id="RZO-6L-hBC"/>
+                            <constraint firstItem="Fgz-PZ-mkg" firstAttribute="leading" secondItem="fNU-9k-RaR" secondAttribute="trailing" id="XYI-F3-uEQ"/>
+                            <constraint firstItem="fNU-9k-RaR" firstAttribute="centerY" secondItem="WCr-eq-s21" secondAttribute="centerY" id="jhM-Wz-uny"/>
+                            <constraint firstItem="WCr-eq-s21" firstAttribute="top" secondItem="94J-Az-2To" secondAttribute="bottom" constant="10" id="qVR-vT-B2Q"/>
+                            <constraint firstItem="94J-Az-2To" firstAttribute="top" secondItem="qlC-Oe-PIs" secondAttribute="bottom" constant="9" id="taB-Nb-Bl8"/>
+                            <constraint firstAttribute="trailing" secondItem="qlC-Oe-PIs" secondAttribute="trailing" id="tn2-Cf-fq7"/>
+                            <constraint firstAttribute="trailing" secondItem="94J-Az-2To" secondAttribute="trailing" id="wHD-8m-51E"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UMS-we-K4X">
+                        <rect key="frame" x="12" y="149" width="323" height="0.5"/>
+                        <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="D2O-Rk-Cgd"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6hf-lf-uBc" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="3kL-Dp-8Ib"/>
+                    <constraint firstItem="8OX-Lo-ExP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="Kcq-DQ-hse"/>
+                    <constraint firstAttribute="trailing" secondItem="UMS-we-K4X" secondAttribute="trailing" id="Xon-cH-Wdy"/>
+                    <constraint firstItem="UMS-we-K4X" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="YbY-pm-gEA"/>
+                    <constraint firstItem="8OX-Lo-ExP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="Zf6-Cu-4WV"/>
+                    <constraint firstItem="6hf-lf-uBc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="hJK-K7-ojd"/>
+                    <constraint firstAttribute="trailing" secondItem="8OX-Lo-ExP" secondAttribute="trailing" constant="12" id="ktd-Kk-cUz"/>
+                    <constraint firstAttribute="bottom" secondItem="UMS-we-K4X" secondAttribute="bottom" id="vVo-1r-CTx"/>
+                    <constraint firstAttribute="bottom" secondItem="8OX-Lo-ExP" secondAttribute="bottom" constant="1" id="xPi-rw-u06"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="checkBtn" destination="6hf-lf-uBc" id="5o2-dO-9KT"/>
+                <outlet property="conRight" destination="ktd-Kk-cUz" id="rvh-y1-ItJ"/>
+                <outlet property="conView" destination="8OX-Lo-ExP" id="ZNN-BH-IzO"/>
+                <outlet property="dateLab" destination="WCr-eq-s21" id="aUu-gU-ZGQ"/>
+                <outlet property="descLab" destination="94J-Az-2To" id="5Cf-Xd-wrX"/>
+                <outlet property="pullBtn" destination="Fgz-PZ-mkg" id="GSZ-1k-fvz"/>
+                <outlet property="pullTextBtn" destination="fNU-9k-RaR" id="M63-7w-FS7"/>
+                <outlet property="spView" destination="UMS-we-K4X" id="ylM-c5-O8b"/>
+                <outlet property="titleLab" destination="qlC-Oe-PIs" id="0qn-e8-8rQ"/>
+            </connections>
+            <point key="canvasLocation" x="40.799999999999997" y="122.33883058470765"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="check_normal" width="14" height="14"/>
+        <image name="check_selected" width="14" height="14"/>
+        <image name="fold_down" width="9" height="5"/>
+        <image name="fold_up" width="9" height="5"/>
+    </resources>
+</document>
